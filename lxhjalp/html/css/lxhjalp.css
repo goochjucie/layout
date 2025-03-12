@@ -5,9 +5,10 @@ body {
     font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
     font-size: 100%;
 }
+/*
 section, header, footer {
     outline: 1px solid red;
-}
+}*/
 section {
     display: inline-block;
     width: 20%;
@@ -30,6 +31,20 @@ header {
 }
 .startpage {
     flex: 0 0 22%;
+}
+.startpage .logo {
+    width: 70%;
+    height: 198px;
+}
+.hwrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.hwrap > a {
+    margin-right: 10px;
+    margin-top: 30px;
 }
 html {
     margin: 2%;
