@@ -46,6 +46,11 @@ header {
     margin-right: 10px;
     margin-top: 30px;
 }
+.hwrap a:link,
+.hwrap a:visited {
+    text-decoration: none;
+    color: black;
+}
 html {
     margin: 2%;
 }
